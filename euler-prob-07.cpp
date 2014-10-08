@@ -8,8 +8,8 @@
 #include <stdio.h>
 #include "euler-prob-07.h"
 
-/* For each integer 2 (the lowest prime) up to the square root of number, check
- * if number modulo that integer is zero.
+/* Check if the given integer has any integer factors greater than 1 and less
+ * than itself.
  */
 bool trialDivision(int number)
 {
