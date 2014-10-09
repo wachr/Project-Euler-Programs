@@ -106,18 +106,57 @@ bool testSimpleSieve()
 #undef NUM_PRIMES_IN_TEST
 #undef TEST_ARR_SIZE
 
-int main (int argc, char **argv)
+bool testSimpleSieveOnRange(int lo, int hi)
 {
-/*
-    int val = 0;
-    if (argc < 2 || sscanf(argv[1], "%d", &val) < 1) {
-        printf("%s: Invalid command line arguments.\n", argv[0]);
-        return 1;
+    size_t size = hi - lo;
+    int arr[size];
+    for (int i = 0; i < (int)size; i++) {
+        arr[i] = 0;
     }
 
-    printf("%d is prime: %s\n", val, trialDivision(val) ? "true" : "false");
-*/
-    printf("Test status: %s\n", testSimpleSieve() ? "PASS" : "FAIL");
+    int nPrimes = simpleSieve(&arr[0], size, lo, hi);
+    bool testPassed = true;
+    for (int i = 0; testPassed && (i < nPrimes); i++) {
+        testPassed = trialDivision(arr[i]) ? testPassed : false;
+    }
+
+    return testPassed;
+}
+
+int main (int argc, char **argv)
+{
+    int lo = 0;
+    int hi = 0;
+    int pr = 0;
+    if (argc < 4
+        || (sscanf(argv[1], "%d", &lo) < 1)
+        || (sscanf(argv[2], "%d", &hi) < 1)
+        || (sscanf(argv[3], "%d", &pr) < 1)
+        ) {
+        printf("Usage: %s", argv[0]);
+        printf(" <inclusive_floor>");
+        printf(" <exclusive_ceiling>");
+        printf(" <print_num_primes>\n");
+
+        printf("testSimpleSieve:               %s\n",
+               testSimpleSieve() ? "PASS" : "FAIL");
+        printf("testSimpleSieveOnRange(0,100): %s\n",
+               testSimpleSieveOnRange(0,100) ? "PASS" : "FAIL");
+    } else {
+        size_t size = hi - lo;
+        int arr[size];
+        for (int i = 0; i < (int)size; i++) {
+            arr[i] = 0;
+        }
+
+        int nPrimes = simpleSieve(&arr[0], size, lo, hi);
+        printf("Found %d primes.\n", nPrimes);
+        int j = pr < nPrimes ? pr : nPrimes; // Number of primes to print
+        for (int i = nPrimes - j; i < nPrimes; i++) {
+            printf("%d ", arr[i]);
+        }
+        printf("\n");
+    }
 
     return 0;
 }

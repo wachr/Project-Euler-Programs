@@ -16,4 +16,8 @@ int simpleSieve(int *retArray, size_t arrSize, int lo, int hi);
 // simpleSieve function.
 bool testSimpleSieve();
 
+// Test simpleSieve by trial division on every prime returned for the range
+// that this test is called with.
+bool testSimpleSieveOnRange(int lo, int hi);
+
 #endif // EULER_PROB_07_H
