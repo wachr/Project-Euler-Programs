@@ -42,6 +42,18 @@ function to pass these tests, I am confident that I will come across necessary
 optimizations to streamline the function without the need to rigorously analyze
 my algorithm by hand.
 
+> #### I'm done
+>
+> (2014-10-08 wachr) So actually, just by implementing a `main` method that
+> parses out command line arguments for the floor and ceiling values of the
+> range to sieve and the maximum number of primes to display, I was able to
+> find the answer to the particular Nth Prime problem presented me by some
+> simple trial and error.
+>
+> I may revisit this code in the future to implement optimizations or perhaps
+> some of the more elaborate algorithms, but for now, I have what I need out of
+> it.
+
 <!-- links -->
 [1]: https://primes.utm.edu/nthprime/algorithm.php "The Prime Database"
 [2]: http://en.wikipedia.org/wiki/Generating_primes "Wikipedia: Generating Primes"
