@@ -1,4 +1,5 @@
 # wachr Project Euler Programs
+<!-- Vim: set filetype=markdown spell : -->
 
 This is a collection of programs and scripts I have written to provide
 solutions to the Project Euler problems.
@@ -12,11 +13,10 @@ this collection:
 - Ruby
 - *Java*
 - Python
-- Javascript
-- *ANSI C*
+- Javascript (NodeJS)
+- C/C++
 
 Some languages to learn before I can write something in them:
 - Scala
 - Lua
 - Clojure
-- C++
