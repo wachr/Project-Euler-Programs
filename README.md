@@ -15,8 +15,8 @@ this collection:
 - Python
 - Javascript (NodeJS)
 - C/C++
+- Clojure
 
-Some languages to learn before I can write something in them:
+Some languages I'd like to learn to write some solutions in:
 - Scala
 - Lua
-- Clojure
