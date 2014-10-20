@@ -1,4 +1,4 @@
-/* euler-prob-07.cpp
+/* euler-prob-007.cpp
  * author: Ray Wach
  * date: 2014-10-08
  * info: A couple simple prime sieve implementations.

@@ -1,6 +1,6 @@
 #! /usr/bin/python
 
-# euler-prob-01.py
+# euler-prob-001.py
 # author: Ray Wach
 # date: 2014-10-02
 # info: Python script to find the solution for Project Euler problem 1.

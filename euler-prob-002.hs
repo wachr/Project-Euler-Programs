@@ -1,4 +1,4 @@
--- euler-prob-02.hs
+-- euler-prob-002.hs
 -- author: Ray Wach
 -- date: 2014-10-02
 -- info: Program to generate the solution to Project Euler problem 2.

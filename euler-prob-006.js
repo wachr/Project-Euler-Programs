@@ -1,4 +1,4 @@
-// euler-prob-06.js
+// euler-prob-006.js
 // author: Ray Wach
 // date: 2014-10-14
 // info: Javascript to solve the answer for Project Euler problem 6.

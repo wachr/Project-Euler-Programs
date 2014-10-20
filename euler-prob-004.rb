@@ -1,4 +1,4 @@
-#! /usr/bin/ruby
+#! euler-prob-004.rb
 
 # euler-prob-04.rb
 # author: Ray Wach

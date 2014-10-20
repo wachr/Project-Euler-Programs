@@ -1,4 +1,4 @@
-/* euler-prob-05.go
+/* euler-prob-005.go
 author: Ray Wach
 date: 2014-10-03
 info: Program to solve Project Euler problem 5 in Go.

@@ -1,4 +1,4 @@
-; euler-prob-08
+; euler-prob-008.clj
 ; author: Ray Wach
 ; date: 2014-10-14
 ; info: Clojure function to find the solution for Project Euler problem 8.

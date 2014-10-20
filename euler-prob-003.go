@@ -1,4 +1,4 @@
-/* euler-prob-03.go
+/* euler-prob-003.go
 author: Ray Wach
 date: 2014-10-02
 info: Program to solve Project Euler problem 3 in Go.

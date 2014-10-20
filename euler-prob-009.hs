@@ -1,6 +1,6 @@
 {-# LANGUAGE ScopedTypeVariables #-}
 
--- euler-prob-09.hs
+-- euler-prob-009.hs
 -- author: Ray Wach
 -- date: 2014-10-16
 -- info: This is a set of Haskell types and functions to compute a solution to

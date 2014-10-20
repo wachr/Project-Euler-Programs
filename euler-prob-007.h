@@ -1,5 +1,5 @@
-#ifndef EULER_PROB_07_H
-#define EULER_PROB_07_H
+#ifndef EULER_PROB_007_H
+#define EULER_PROB_007_H
 
 // An array of the first few primes for testing purposes.
 const int FIRST_16_PRIMES[16] = {2,3,5,7,11,13,17,19,23,29,31,37,41,43,47,53};
@@ -20,4 +20,4 @@ bool testSimpleSieve();
 // that this test is called with.
 bool testSimpleSieveOnRange(int lo, int hi);
 
-#endif // EULER_PROB_07_H
+#endif // EULER_PROB_007_H
